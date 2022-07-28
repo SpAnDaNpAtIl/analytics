@@ -15,6 +15,7 @@ com_logo = "https://www.freepnglogos.com/uploads/tvs-logo-png/tvs-motors-logo-pn
 
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP], external_scripts=external_scripts, use_pages=True, pages_folder="/pages")
 server = app.server
+rand=11
 
 
 
