@@ -13,9 +13,8 @@ import config as cfg
 external_scripts = ["https://platform.twitter.com/widgets.js"]
 com_logo = "https://www.freepnglogos.com/uploads/tvs-logo-png/tvs-motors-logo-png-0.png"
 
-app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP], external_scripts=external_scripts, use_pages=True, pages_folder="/pages")
+app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP], external_scripts=external_scripts, use_pages=True)
 server = app.server
-rand=11
 
 
 
